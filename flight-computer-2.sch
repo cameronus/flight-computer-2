@@ -1919,18 +1919,7 @@ Text Notes 8550 6350 0    50   ~ 0
 Reset and Boot Buttons
 Text Notes 9650 5450 0    50   ~ 0
 I2C Pull-up
-$Comp
-L Connector:Micro_SD_Card J?
-U 1 1 5FAF6E41
-P 6150 2050
-F 0 "J?" H 6100 2767 50  0000 C CNN
-F 1 "Micro_SD_Card" H 6100 2676 50  0000 C CNN
-F 2 "" H 7300 2350 50  0001 C CNN
-F 3 "http://katalog.we-online.de/em/datasheet/693072010801.pdf" H 6150 2050 50  0001 C CNN
-	1    6150 2050
-	1    0    0    -1  
-$EndComp
-Text Notes 5850 2900 0    50   ~ 0
+Text Notes 5650 2600 0    50   ~ 0
 MicroSD Slot
 $Comp
 L Device:R_Small R?
@@ -2074,5 +2063,76 @@ F 2 "" H 1350 4250 50  0001 C CNN
 F 3 "" H 1350 4250 50  0001 C CNN
 	1    1350 4250
 	0    1    1    0   
+$EndComp
+$Comp
+L flight-computer-2:DM3AT-SF-PEJM5 J?
+U 1 1 5FB2E69F
+P 5900 2300
+F 0 "J?" H 5900 3167 50  0000 C CNN
+F 1 "DM3AT-SF-PEJM5" H 5900 3076 50  0000 C CNN
+F 2 "HRS_DM3AT-SF-PEJM5" H 5450 2100 50  0001 L BNN
+F 3 "~" H 5900 2300 50  0001 L BNN
+	1    5900 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 2200 6500 2200
+Wire Wire Line
+	6500 2200 6500 2300
+Wire Wire Line
+	6400 2300 6500 2300
+Connection ~ 6500 2300
+Wire Wire Line
+	6500 2300 6500 2400
+$Comp
+L power:GND #PWR?
+U 1 1 5FB48BB3
+P 6500 2400
+F 0 "#PWR?" H 6500 2150 50  0001 C CNN
+F 1 "GND" H 6505 2227 50  0000 C CNN
+F 2 "" H 6500 2400 50  0001 C CNN
+F 3 "" H 6500 2400 50  0001 C CNN
+	1    6500 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 1700 6500 1700
+Wire Wire Line
+	6500 1700 6500 1600
+Connection ~ 6500 1700
+$Comp
+L Device:C_Small C?
+U 1 1 5FB5FE3F
+P 6700 1700
+F 0 "C?" V 6471 1700 50  0000 C CNN
+F 1 "10uF" V 6562 1700 50  0000 C CNN
+F 2 "" H 6700 1700 50  0001 C CNN
+F 3 "~" H 6700 1700 50  0001 C CNN
+	1    6700 1700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6500 1700 6600 1700
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5FB78519
+P 6500 1600
+F 0 "#PWR?" H 6500 1450 50  0001 C CNN
+F 1 "+3.3V" H 6515 1773 50  0000 C CNN
+F 2 "" H 6500 1600 50  0001 C CNN
+F 3 "" H 6500 1600 50  0001 C CNN
+	1    6500 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FB794BB
+P 6800 1700
+F 0 "#PWR?" H 6800 1450 50  0001 C CNN
+F 1 "GND" V 6800 1550 50  0000 R CNN
+F 2 "" H 6800 1700 50  0001 C CNN
+F 3 "" H 6800 1700 50  0001 C CNN
+	1    6800 1700
+	0    -1   -1   0   
 $EndComp
 $EndSCHEMATC
