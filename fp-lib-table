@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name flight-computer-2)(type KiCad)(uri ${KIPRJMOD}/flight-computer-2.pretty)(options "")(descr ""))
+)
