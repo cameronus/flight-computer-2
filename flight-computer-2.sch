@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "VTOL EDF Flight Computer"
-Date "2020-07-23"
+Date "2020-07-24"
 Rev "v2"
 Comp ""
 Comment1 ""
@@ -1964,8 +1964,6 @@ NoConn ~ 9400 1550
 NoConn ~ 9400 1650
 NoConn ~ 9400 1750
 NoConn ~ 9400 1850
-NoConn ~ 7800 2650
-NoConn ~ 7800 2550
 NoConn ~ 9400 2250
 NoConn ~ 9400 2150
 NoConn ~ 9400 3550
@@ -2156,7 +2154,6 @@ Wire Wire Line
 	4050 2000 4200 2000
 Wire Wire Line
 	4050 1900 4200 1900
-NoConn ~ 7800 2950
 Text Label 9550 2350 2    50   ~ 0
 IO10
 Text Label 9500 2450 2    50   ~ 0
@@ -2221,4 +2218,16 @@ Wire Wire Line
 Connection ~ 2600 5250
 Connection ~ 2600 5550
 Connection ~ 2600 5850
+Text Label 7500 2950 0    50   ~ 0
+IMU_INT
+Wire Wire Line
+	7500 2950 7800 2950
+Text Label 7450 2650 0    50   ~ 0
+ALT_INT_1
+Text Label 7450 2550 0    50   ~ 0
+ALT_INT_2
+Wire Wire Line
+	7450 2550 7800 2550
+Wire Wire Line
+	7450 2650 7800 2650
 $EndSCHEMATC
