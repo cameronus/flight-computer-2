@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 47948-0001
+D Antenna with extra pin for shielding
+K antenna
+F ~
+$ENDCMP
+#
 $CMP AZ1117EH-3.3TRG1
 F ~
 $ENDCMP
@@ -17,10 +23,6 @@ F ~
 $ENDCMP
 #
 $CMP MUN5214DW1T1G
-F ~
-$ENDCMP
-#
-$CMP PRO-OB-440
 F ~
 $ENDCMP
 #
