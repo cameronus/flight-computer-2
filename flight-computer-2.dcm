@@ -32,4 +32,8 @@ $CMP USB4105-GF-A
 F ~
 $ENDCMP
 #
+$CMP USBLC6-2SC6
+F ~
+$ENDCMP
+#
 #End Doc Library
