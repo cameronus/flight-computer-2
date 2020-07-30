@@ -2232,7 +2232,7 @@ L Device:R_Small R31
 U 1 1 5FBFFDBC
 P 10450 3250
 F 0 "R31" H 10509 3296 50  0000 L CNN
-F 1 "22.1k" H 10509 3205 50  0000 L CNN
+F 1 "33k" H 10509 3205 50  0000 L CNN
 F 2 "flight-computer-2:R_0603_1608Metric" H 10450 3250 50  0001 C CNN
 F 3 "~" H 10450 3250 50  0001 C CNN
 	1    10450 3250
@@ -2243,7 +2243,7 @@ L Device:R_Small R32
 U 1 1 5FC107AE
 P 10450 3650
 F 0 "R32" H 10509 3696 50  0000 L CNN
-F 1 "47.5k" H 10509 3605 50  0000 L CNN
+F 1 "33k" H 10509 3605 50  0000 L CNN
 F 2 "flight-computer-2:R_0603_1608Metric" H 10450 3650 50  0001 C CNN
 F 3 "~" H 10450 3650 50  0001 C CNN
 	1    10450 3650
@@ -2267,4 +2267,48 @@ Wire Wire Line
 	10450 3450 10450 3550
 Text Notes 10200 4150 0    50   ~ 0
 VBEC Monitor
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5FC8E67D
+P 6200 6450
+F 0 "H1" H 6300 6496 50  0000 L CNN
+F 1 "MountingHole" H 6300 6405 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 6200 6450 50  0001 C CNN
+F 3 "~" H 6200 6450 50  0001 C CNN
+	1    6200 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5FC8EF75
+P 6200 6650
+F 0 "H2" H 6300 6696 50  0000 L CNN
+F 1 "MountingHole" H 6300 6605 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 6200 6650 50  0001 C CNN
+F 3 "~" H 6200 6650 50  0001 C CNN
+	1    6200 6650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 5FC8F234
+P 6200 6850
+F 0 "H3" H 6300 6896 50  0000 L CNN
+F 1 "MountingHole" H 6300 6805 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 6200 6850 50  0001 C CNN
+F 3 "~" H 6200 6850 50  0001 C CNN
+	1    6200 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 5FC8F47C
+P 6200 7050
+F 0 "H4" H 6300 7096 50  0000 L CNN
+F 1 "MountingHole" H 6300 7005 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 6200 7050 50  0001 C CNN
+F 3 "~" H 6200 7050 50  0001 C CNN
+	1    6200 7050
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
