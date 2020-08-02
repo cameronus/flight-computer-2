@@ -1714,7 +1714,7 @@ Text Label 7600 3150 0    50   ~ 0
 SER1
 Text Label 7600 3050 0    50   ~ 0
 SER2
-Text Label 7600 3550 0    50   ~ 0
+Text Label 7600 3250 0    50   ~ 0
 SER3
 Text Label 7600 2950 0    50   ~ 0
 SER4
@@ -1725,7 +1725,7 @@ Wire Wire Line
 Wire Wire Line
 	7800 2950 7600 2950
 Wire Wire Line
-	7800 3550 7600 3550
+	7800 3250 7600 3250
 $Comp
 L power:GND #PWR037
 U 1 1 5F332774
@@ -1870,12 +1870,10 @@ F 3 "" H 10200 1450 50  0001 C CNN
 	1    10200 1450
 	-1   0    0    -1  
 $EndComp
-Text Label 7500 3250 0    50   ~ 0
+Text Label 7500 3550 0    50   ~ 0
 IMU_INT
 Wire Wire Line
-	7500 3250 7800 3250
-Wire Wire Line
-	7700 2650 7800 2650
+	7500 3550 7800 3550
 $Comp
 L Device:R_Small R3
 U 1 1 5F20CB9C
@@ -2111,10 +2109,10 @@ Wire Wire Line
 NoConn ~ 8150 5050
 NoConn ~ 8150 5150
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0101
 U 1 1 60BCAA60
 P 7150 3450
-F 0 "#PWR?" H 7150 3200 50  0001 C CNN
+F 0 "#PWR0101" H 7150 3200 50  0001 C CNN
 F 1 "GND" V 7155 3322 50  0000 R CNN
 F 2 "" H 7150 3450 50  0001 C CNN
 F 3 "" H 7150 3450 50  0001 C CNN
@@ -2129,4 +2127,6 @@ Wire Wire Line
 	7150 2750 7150 2950
 Wire Wire Line
 	7150 2750 7800 2750
+NoConn ~ 7800 2550
+NoConn ~ 7800 2650
 $EndSCHEMATC
