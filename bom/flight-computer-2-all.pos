@@ -1,4 +1,4 @@
-### Module positions - created on Wednesday, August 05, 2020 at 04:02:38 AM ###
+### Module positions - created on Thursday, August 06, 2020 at 04:34:43 PM ###
 ### Printed by Pcbnew version kicad (5.1.6-0-10_14)
 ## Unit = mm, Angle = deg.
 ## Side : All
@@ -11,8 +11,8 @@ C4        10uF                       C_0603_1608Metric                        13
 C5        0.1uF                      C_0603_1608Metric                        43.7500    31.7500    0.0000  top
 C6        0.1uF                      C_0603_1608Metric                        43.7500    30.2500    0.0000  top
 C7        0.1uF                      C_0603_1608Metric                        40.5000    37.2500   90.0000  top
-C8        22pF                       C_0603_1608Metric                        41.2500    26.7500   90.0000  top
-C9        22pF                       C_0603_1608Metric                        39.0000    26.7500   90.0000  top
+C8        22pF                       C_0603_1608Metric                        41.2500    27.0000   90.0000  top
+C9        22pF                       C_0603_1608Metric                        39.0000    27.0000   90.0000  top
 C10       0.1uF                      C_0603_1608Metric                        29.7500    20.7500  225.0000  top
 C11       10uF                       C_0603_1608Metric                        36.0000    17.9519  270.0000  top
 C12       1uF                        C_0603_1608Metric                        37.5000    17.9519  270.0000  top
@@ -57,8 +57,8 @@ R21       2k                         R_0603_1608Metric                        12
 R22       1k                         R_0603_1608Metric                        13.7500    43.5000   90.0000  top
 R23       1k                         R_0603_1608Metric                        15.2500    43.5000   90.0000  top
 R24       10k                        R_0603_1608Metric                        21.7500    43.2500  270.0000  top
-R25       27k                        R_0603_1608Metric                        11.7500    39.2500    0.0000  top
-R26       47k                        R_0603_1608Metric                        11.7500    40.7500  180.0000  top
+R25       27k                        R_0603_1608Metric                        12.0000    38.7500    0.0000  top
+R26       47k                        R_0603_1608Metric                        12.0000    40.2500  180.0000  top
 SW1       RESET                      SW_SPST_PTS810                           35.2500     4.7500    0.0000  top
 SW2       BOOT                       SW_SPST_PTS810                           35.2500     8.7500    0.0000  top
 U1        AP2114H-3.3TRG1            SOT-223                                  14.0000    17.0000   90.0000  top
@@ -67,4 +67,5 @@ U3        BNO080                     LGA-28_5.2x3.8mm_P0.5mm                  39
 U4        CP2102N                    QFN-28-1EP_5x5mm_P0.5mm_EP3.35x3.35mm    25.5000    22.0000  135.0000  top
 U5        MPL3115A2                  LGA-8_3x5mm_P1.25mm                      37.5000    21.2500   90.0000  top
 U6        ESP32-PICO-D4              ESP32_PICO_D4                            25.5000    37.2500  270.0000  top
+Y1        32.768kHz                  ABS07                                    40.1575    29.6000  180.0000  top
 ## End
