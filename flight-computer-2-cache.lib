@@ -187,11 +187,11 @@ X TAB 4 450 0 100 L 40 40 0 0 P
 ENDDRAW
 ENDDEF
 #
-# flight-computer-2_BNO080
+# flight-computer-2_BNO085
 #
-DEF flight-computer-2_BNO080 U 0 40 Y Y 1 F N
+DEF flight-computer-2_BNO085 U 0 40 Y Y 1 F N
 F0 "U" 0 0 50 H V C CNN
-F1 "flight-computer-2_BNO080" 0 -100 50 H V C CNN
+F1 "flight-computer-2_BNO085" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
