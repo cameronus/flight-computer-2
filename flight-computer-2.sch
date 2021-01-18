@@ -1750,9 +1750,7 @@ F 3 "~" H 7850 1600 50  0001 C CNN
 $EndComp
 NoConn ~ 8150 1800
 NoConn ~ 8150 1900
-NoConn ~ 8150 2000
 NoConn ~ 8150 2100
-NoConn ~ 8150 2200
 $Comp
 L power:GND #PWR0102
 U 1 1 60426C02
@@ -1940,4 +1938,81 @@ Text Label 9550 2300 2    50   ~ 0
 BLUE
 Text Notes 8450 3700 0    50   ~ 0
 Microcontroller
+Text Label 9550 1800 2    50   ~ 0
+EXT1
+Text Label 9550 1900 2    50   ~ 0
+EXT2
+Text Label 9550 2000 2    50   ~ 0
+EXT3
+Text Label 9550 2100 2    50   ~ 0
+EXT4
+Wire Wire Line
+	9350 1800 9550 1800
+Wire Wire Line
+	9350 1900 9550 1900
+Wire Wire Line
+	9350 2000 9550 2000
+Wire Wire Line
+	9350 2100 9550 2100
+Text Label 4200 2050 0    50   ~ 0
+EXT1
+Text Label 4200 2150 0    50   ~ 0
+EXT2
+Text Label 4200 2250 0    50   ~ 0
+EXT3
+Text Label 4200 2350 0    50   ~ 0
+EXT4
+Wire Wire Line
+	4350 2050 4200 2050
+Wire Wire Line
+	4350 2150 4200 2150
+Wire Wire Line
+	4350 2250 4200 2250
+Wire Wire Line
+	4350 2350 4200 2350
+NoConn ~ 8150 2900
+NoConn ~ 8150 3000
+$Comp
+L Device:LED D?
+U 1 1 607AD60F
+P 7800 2200
+F 0 "D?" H 7750 2300 50  0000 L CNN
+F 1 "Blue" H 7750 2100 50  0000 L CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 7800 2200 50  0001 C CNN
+F 3 "~" H 7800 2200 50  0001 C CNN
+F 4 "LTST-C191TBKT" H 7800 2200 50  0001 C CNN "MPN"
+	1    7800 2200
+	1    0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 607AD615
+P 7650 2200
+F 0 "#PWR?" H 7650 1950 50  0001 C CNN
+F 1 "GND" V 7650 2000 50  0000 C CNN
+F 2 "" H 7650 2200 50  0001 C CNN
+F 3 "" H 7650 2200 50  0001 C CNN
+	1    7650 2200
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 607AD61C
+P 8050 2200
+F 0 "R?" V 8150 2200 50  0000 L CNN
+F 1 "2k" V 8150 2050 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 8050 2200 50  0001 C CNN
+F 3 "~" H 8050 2200 50  0001 C CNN
+F 4 "RC0603FR-072KL" H 8050 2200 50  0001 C CNN "MPN"
+	1    8050 2200
+	0    -1   1    0   
+$EndComp
+Text Label 8000 2000 0    50   ~ 0
+IO5
+Wire Wire Line
+	8000 2000 8150 2000
+Text Label 4950 2050 2    50   ~ 0
+IO5
+Wire Wire Line
+	4950 2050 4850 2050
 $EndSCHEMATC
