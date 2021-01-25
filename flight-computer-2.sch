@@ -1718,18 +1718,16 @@ Wire Wire Line
 	9350 2400 9500 2400
 Wire Wire Line
 	9350 2500 9500 2500
-Text Label 9500 2700 2    50   ~ 0
-THR
-Text Label 9550 2800 2    50   ~ 0
+Text Label 9550 2700 2    50   ~ 0
 SER1
 Text Label 9550 2900 2    50   ~ 0
 SER2
 Text Label 9550 3000 2    50   ~ 0
 SER3
-Text Label 9550 3100 2    50   ~ 0
-SER4
+Text Label 9500 3100 2    50   ~ 0
+THR
 Wire Wire Line
-	9350 2700 9500 2700
+	9350 2700 9550 2700
 Wire Wire Line
 	9350 2800 9550 2800
 Wire Wire Line
@@ -1737,18 +1735,16 @@ Wire Wire Line
 Wire Wire Line
 	9350 3000 9550 3000
 Wire Wire Line
-	9350 3100 9550 3100
-Text Label 9500 2200 2    50   ~ 0
+	9350 3100 9500 3100
+Text Label 9500 2300 2    50   ~ 0
 RED
 Wire Wire Line
-	9350 2200 9500 2200
-Wire Wire Line
-	9350 2300 9550 2300
+	9350 2300 9500 2300
 Wire Wire Line
 	9350 2600 9600 2600
 Text Label 9600 2600 2    50   ~ 0
 GREEN
-Text Label 9550 2300 2    50   ~ 0
+Text Label 9550 2200 2    50   ~ 0
 BLUE
 Text Notes 8450 3700 0    50   ~ 0
 Microcontroller
@@ -2298,4 +2294,8 @@ Wire Wire Line
 Connection ~ 6050 6200
 Wire Wire Line
 	6050 6200 6300 6200
+Wire Wire Line
+	9350 2200 9550 2200
+Text Label 9550 2800 2    50   ~ 0
+SER4
 $EndSCHEMATC
