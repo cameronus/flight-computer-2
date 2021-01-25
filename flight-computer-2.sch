@@ -1696,9 +1696,9 @@ Wire Wire Line
 	8150 5150 8550 5150
 Text Label 7850 2600 0    50   ~ 0
 IMU_INT
-Text Label 7800 2700 0    50   ~ 0
-ALT_INT_1
 Text Label 7800 2800 0    50   ~ 0
+ALT_INT_1
+Text Label 7800 2700 0    50   ~ 0
 ALT_INT_2
 Wire Wire Line
 	8150 2600 7850 2600
