@@ -1216,10 +1216,6 @@ F 3 "" H 4850 2350 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4200 1950 4350 1950
-Text Label 5000 2150 2    50   ~ 0
-SCL
-Text Label 5000 2250 2    50   ~ 0
-SDA
 Wire Wire Line
 	5000 2250 4850 2250
 Wire Wire Line
@@ -1748,9 +1744,9 @@ Text Label 9550 2200 2    50   ~ 0
 BLUE
 Text Notes 8450 3700 0    50   ~ 0
 Microcontroller
-Text Label 9550 1800 2    50   ~ 0
-EXT1
 Text Label 9550 1900 2    50   ~ 0
+EXT1
+Text Label 9550 1800 2    50   ~ 0
 EXT2
 Text Label 9550 2000 2    50   ~ 0
 EXT3
@@ -1766,8 +1762,6 @@ Wire Wire Line
 	9350 2100 9550 2100
 Text Label 4200 2050 0    50   ~ 0
 EXT1
-Text Label 4200 2150 0    50   ~ 0
-EXT2
 Text Label 4200 2250 0    50   ~ 0
 EXT3
 Text Label 4200 2350 0    50   ~ 0
@@ -2298,4 +2292,10 @@ Wire Wire Line
 	9350 2200 9550 2200
 Text Label 9550 2800 2    50   ~ 0
 SER4
+Text Label 5000 2250 2    50   ~ 0
+EXT2
+Text Label 5000 2150 2    50   ~ 0
+SCL
+Text Label 4200 2150 0    50   ~ 0
+SDA
 $EndSCHEMATC
