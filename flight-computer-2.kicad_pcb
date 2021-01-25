@@ -882,7 +882,7 @@
       (net 51 "Net-(L1-Pad1)"))
     (pad 1 smd roundrect (at -1.4625 -0.75 270) (size 0.825 0.25) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 51 "Net-(L1-Pad1)"))
-    (model ${KISYS3DMOD}/Package_DFN_QFN.3dshapes/VQFN-16-1EP_3x3mm_P0.5mm_EP1.68x1.68mm.wrl
+    (model ${KISYS3DMOD}/Package_DFN_QFN.3dshapes/WQFN-16-1EP_3x3mm_P0.5mm_EP1.6x1.6mm.step
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
