@@ -4,8 +4,8 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title "VTOL EDF Flight Computer"
-Date "2021-01-21"
+Title "Abacus Flight Computer"
+Date "2021-02-07"
 Rev "v2"
 Comp ""
 Comment1 ""
